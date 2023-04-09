@@ -26,6 +26,7 @@ function App() {
       history.push("/dashboard");
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
+    
   }, [history]);
 
   console.log("In App", user);
